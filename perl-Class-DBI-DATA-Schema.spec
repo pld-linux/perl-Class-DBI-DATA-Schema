@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Class
 %define	pnam	DBI-DATA-Schema
-Summary:	Class::DBI::DATA::Schema - Execute Class::DBI SQL from DATA sections
-#Summary(pl):	
+Summary:	Class::DBI::DATA::Schema - execute Class::DBI SQL from DATA sections
+Summary(pl):	Class::DBI::DATA::Schema - wykonanie SQL-a w oparciu o Class::DBI z sekcji DATA 
 Name:		perl-Class-DBI-DATA-Schema
 Version:	0.04
 Release:	1
@@ -25,8 +25,9 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This is an extension to Class::DBI which injects a method into your class
-to find and execute all SQL statements in the DATA section of the package.
+This is an extension to Class::DBI which injects a method into your
+class to find and execute all SQL statements in the DATA section of
+the package.
 
 # %description -l pl
 # TODO
