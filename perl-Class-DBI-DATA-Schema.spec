@@ -29,8 +29,10 @@ This is an extension to Class::DBI which injects a method into your
 class to find and execute all SQL statements in the DATA section of
 the package.
 
-# %description -l pl
-# TODO
+%description -l pl
+Ta klasa jest rozszerzeniem Class::DBI umieszczaj±cym w dziedzicz±cej
+klasie metodê do znajdywania i wykonywania wszystkich instrukcji SQL-a
+z sekcji DATA pakietu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
