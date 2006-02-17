@@ -6,15 +6,15 @@
 %define	pdir	Class
 %define	pnam	DBI-DATA-Schema
 Summary:	Class::DBI::DATA::Schema - execute Class::DBI SQL from DATA sections
-Summary(pl):	Class::DBI::DATA::Schema - wykonanie SQL-a w oparciu o Class::DBI z sekcji DATA 
+Summary(pl):	Class::DBI::DATA::Schema - wykonanie SQL-a w oparciu o Class::DBI z sekcji DATA
 Name:		perl-Class-DBI-DATA-Schema
-Version:	0.04
+Version:	1.00
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	61717b2145d85e99115ccbae26a90d5d
+# Source0-md5:	fb5b44fefc7095dde22c752f43691f54
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
