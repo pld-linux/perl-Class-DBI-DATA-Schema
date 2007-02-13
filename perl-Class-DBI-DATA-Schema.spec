@@ -6,7 +6,7 @@
 %define	pdir	Class
 %define	pnam	DBI-DATA-Schema
 Summary:	Class::DBI::DATA::Schema - execute Class::DBI SQL from DATA sections
-Summary(pl.UTF-8):   Class::DBI::DATA::Schema - wykonanie SQL-a w oparciu o Class::DBI z sekcji DATA
+Summary(pl.UTF-8):	Class::DBI::DATA::Schema - wykonanie SQL-a w oparciu o Class::DBI z sekcji DATA
 Name:		perl-Class-DBI-DATA-Schema
 Version:	1.00
 Release:	1
