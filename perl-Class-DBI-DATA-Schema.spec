@@ -9,7 +9,7 @@ Summary:	Class::DBI::DATA::Schema - execute Class::DBI SQL from DATA sections
 Summary(pl.UTF-8):	Class::DBI::DATA::Schema - wykonanie SQL-a w oparciu o Class::DBI z sekcji DATA
 Name:		perl-Class-DBI-DATA-Schema
 Version:	1.00
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
