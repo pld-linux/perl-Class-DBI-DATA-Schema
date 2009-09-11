@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_with	tests		# do not perform "make test"
+%bcond_with	tests		# perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Class
@@ -9,8 +9,7 @@ Summary:	Class::DBI::DATA::Schema - execute Class::DBI SQL from DATA sections
 Summary(pl.UTF-8):	Class::DBI::DATA::Schema - wykonanie SQL-a w oparciu o Class::DBI z sekcji DATA
 Name:		perl-Class-DBI-DATA-Schema
 Version:	1.00
-Release:	3
-# same as perl
+Release:	4
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
